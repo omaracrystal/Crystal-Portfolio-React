@@ -1,4 +1,4 @@
-#CRYSTAL'S OUT OF THIS WORLD PORTFOLIO
+#Crystl's Out of this World Portfolio
 
 ##Description
 A collection of my work built with React. 
