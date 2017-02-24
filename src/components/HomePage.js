@@ -7,25 +7,24 @@ const HomePage = () => {
 
           <div className="globe fixed-center content-wrapper">
 
-              <div id="menu-about-link" className="menu-link">
-                  <a href="" className="white-text">about</a>
-              </div>
+              <Link to="/about" id="menu-about-link" className="menu-link white-text">
+                  about
+              </Link>
 
               <div className="group">
-                  <div className="title-name">
-                      <a href="" className="white-text">CRYSTAL
-                          <button className="omara"></button>'MARA
-                      </a>
+                  <div className="title-name white-text">
+                     CRYSTAL
+                      <button className="omara"></button>'MARA
                   </div>
-                  <hr></hr>
+                  <hr/>
                   <div className="title-job">
                       front-end developer | UX/UI
                   </div>
               </div>
 
-              <div id="menu-work-link" className="menu-link">
-                  <a href="" className="white-text">work</a>
-              </div>
+              <Link to="/work" id="menu-work-link" className="menu-link white-text">
+                  work
+              </Link>
           </div>
 
           <div className="globe globe-gradient fixed-center"></div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link, IndexLink } from 'react-router';
 import '../styles/styles.scss';
 
 // Since this component is simple and static, there's no parent container for it.
@@ -7,19 +7,16 @@ const AboutPage = () => {
   return (
       <div className="about fixed-center">
 
-          <div className="title-name">
-              <a href="" className="white-text">
-                  CRYSTAL
-                  <button className="omara"></button>
-                  'MARA
-              </a>
-          </div>
+          <IndexLink to="/" className="title-name white-text">
+              CRYSTAL
+              <button className="omara"></button>
+              'MARA
+          </IndexLink>
 
-          <div id="menu-about-link" className="menu-link">
-              <a href="" className="white-text">
-                  about
-              </a>
-          </div>
+          <Link to="/about" id="menu-about-link" className="menu-link white-text">
+              about
+          </Link>
+
           <div className="globe">
               <div className="content-wrapper fixed-center">
                   <img className="about-pic" src="/./styles/images/about-pic.jpg"></img>
@@ -32,9 +29,9 @@ const AboutPage = () => {
           <div className="globe globe-gradient fixed-center"></div>
           <div className="globe globe-black fixed-center"></div>
 
-          <div id="menu-work-link" className="menu-link">
-              <a href="" className="white-text">work</a>
-          </div>
+          <Link to="/work" id="menu-work-link" className="menu-link white-text">
+              work
+          </Link>
 
           <div className="contact-wrapper">
               <i className="fa fa-linkedin"></i>
