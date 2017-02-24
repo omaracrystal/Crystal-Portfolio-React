@@ -20,7 +20,7 @@ A collection of my work built with React.
 - Sketch
 
 ![alt text](src/styles/images/portfolio-sketch-mobile-1.png)
-![alt text](src/styles/portfolio-sketch-mobile-2.png)
+![alt text](src/styles/images/portfolio-sketch-mobile-2.png)
 ![alt text](src/styles/images/portfolio-home.png)
 ![alt text](src/styles/images/portfolio-about.png)
 ![alt text](src/styles/images/portfolio-content.png)
