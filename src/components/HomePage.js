@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link, IndexLink } from 'react-router';
 
 const HomePage = () => {
   return (
@@ -12,10 +12,11 @@ const HomePage = () => {
               </Link>
 
               <div className="group">
-                  <div className="title-name white-text">
-                     CRYSTAL
-                      <button className="omara"></button>'MARA
-                  </div>
+                  <IndexLink to="/" className="title-name white-text">
+                      CRYSTAL
+                      <button className="omara"></button>
+                      'MARA
+                  </IndexLink>
                   <hr/>
                   <div className="title-job">
                       front-end developer | UX/UI
