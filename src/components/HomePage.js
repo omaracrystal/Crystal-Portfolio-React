@@ -3,15 +3,35 @@ import {Link} from 'react-router';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>React Slingshot</h1>
+      <div id="home" className="home">
 
-      <h2>Get Started</h2>
-      <ol>
-        <li>Review the <Link to="fuel-savings">demo app</Link></li>
-        <li>Remove the demo and start coding: npm run remove-demo</li>
-      </ol>
-    </div>
+          <div className="globe fixed-center content-wrapper">
+
+              <div id="menu-about-link" className="menu-link">
+                  <a href="" className="white-text">about</a>
+              </div>
+
+              <div className="group">
+                  <div className="title-name">
+                      <a href="" className="white-text">CRYSTAL
+                          <button className="omara"></button>'MARA
+                      </a>
+                  </div>
+                  <hr></hr>
+                  <div className="title-job">
+                      front-end developer | UX/UI
+                  </div>
+              </div>
+
+              <div id="menu-work-link" className="menu-link">
+                  <a href="" className="white-text">work</a>
+              </div>
+          </div>
+
+          <div className="globe globe-gradient fixed-center"></div>
+          <div className="globe globe-black fixed-center"></div>
+
+      </div>
   );
 };
 
